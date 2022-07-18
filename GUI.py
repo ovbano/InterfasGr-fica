@@ -60,7 +60,7 @@ id.focus()
 buscar = Button(usuario, text='Evaluar', command=evaluar,bg = "gray88", fg="black", font = ("Arial",11)).grid(row=4, columnspan=3)
 
 def github():
-        webbrowser.open("www..com")
+        webbrowser.open("https://github.com/ovbano/InterfasGr-fica/edit/main/GUI.py")
 myvercion = Button(campos, text = "Vercionamiento", bg = "gold", fg = "black", command = github, cursor = "circle", font = ("Arial",14)).pack(pady=20)
 
 campos.mainloop()
